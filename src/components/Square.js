@@ -1,9 +1,9 @@
 import React from "react"
 
-const Square = ({value, index, handleSquareClick}) => {
+const Square = ({ value, index, handleSquareClick }) => {
 
-// const { value } = props; is the same as props.value
-// instead pass the destructured props in the paretheses 
+  // const { value } = props; is the same as props.value
+  // instead pass the destructured props in the paretheses 
   const handleClick = () => {
     handleSquareClick(index)
   }
