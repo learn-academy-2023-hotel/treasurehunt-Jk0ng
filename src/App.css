@@ -15,3 +15,8 @@ h1 {
   width: 610px;
   margin: 0 auto;
 }
+.button {
+  font-size: large;
+  margin-left: 48%;
+  color: #23759e
+}
